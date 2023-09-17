@@ -60,13 +60,13 @@ function Name() {
         </div>
       </div>
       <div
-        className="row justify-content-center align-items-center mt-5 pt-5"
+        className="row justify-content-center  mt-5 pt-5"
 
       >
-        <div className="col-md-5 col-8 text-end pb-5">{url}</div>
-        <div className="col-md-3 col-4 pb-5">
+        <div className="col-12 col-md-5 text-md-end  text-center mb-2 " >{url}</div>
+        <div className="col-md-2 col-6  col-sm-4 pb-5">
           {showbtn ? <></> : <button
-            className="btn btn-primary "
+            className="btn btn-primary " style={{ width: "100%" }}
             onClick={() => {
               handleCopy();
             }}
