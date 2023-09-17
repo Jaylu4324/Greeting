@@ -9,8 +9,8 @@ function Name() {
 
 
   let nav = useNavigate();
-  // let str = "https://jaylu4324.github.io/Greeting/#/Wishe?name=";
-  let str = "localhost:3000/#/Wishe?name="
+  let str = "https://jaylu4324.github.io/Greeting/#/Wishe?name=";
+  // let str = "localhost:3000/#/Wishe?name="
   const handleSubmit = () => {
     setUrl(str + name);
     setShowbtn(false)
